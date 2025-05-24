@@ -42,6 +42,29 @@ To identify customers who are likely to cancel their subscription (churn) and co
 | SVM            | **0.612** | **0.77** | 0.64           | **0.815** |
 | MLP            | 0.556   | 0.77     | 0.58           | 0.806  |
 
+### Confusion Matrix – Decision Tree
+
+![Confusion Matrix – Decision Tree](images/confusion_matrix_dt.png)
+
+### Confusion Matrix - KNN
+
+![Confusion Matrix – KNN](images/confusion_matrix_knn.png)
+
+### Confusion Matrix - Naive Bayes
+
+![Confusion Matrix – Naive Bayes](images/confusion_matrix_nb.png)
+
+### Confusion Matrix - SVM
+
+![Confusion Matrix – SVM](images/confusion_matrix_svm.png)
+
+
+### Confusion Matrix - MLP
+
+![Confusion Matrix – MLP](images/confusion_matrix_mlp.png)
+
+
+
 > Full analysis and metrics are available in the notebook.
 
 ---
@@ -69,3 +92,6 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook notebook/telco_churn_analysis.ipynb
 ```
+
+## Dataset
+The dataset used in this project is publicly available at: [Kaggle – Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
