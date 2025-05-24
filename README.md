@@ -11,9 +11,7 @@ To identify customers who are likely to cancel their subscription (churn) and co
 ## 📁 Project Structure
 
 - `notebook/`: Contains the complete analysis notebook (`telco_churn_analysis.ipynb`)
-- `data/`: Information on the dataset origin and format (not included directly)
-- `images/`: Key plots (confusion matrices, ROC curves, etc.)
-- `reports/`: Final summary or presentation-ready content
+- `images/`: Key plots (confusion matrices)
 - `README.md`: Project documentation
 - `requirements.txt`: Python dependencies
 
